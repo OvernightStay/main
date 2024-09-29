@@ -1,0 +1,44 @@
+.choiseComponent__container {
+  background-image: url("../../assets/choise_bgr.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  flex-grow: 1;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.choiseComponent__cat {
+  display: none;
+}
+.choiseComponent__cat_wrapper {
+  padding-top: 65px;
+}
+.female__row,
+.male__row {
+  align-self: flex-end;
+}
+.settings {
+  background-image: url("../../assets/settings.png");
+  position: absolute;
+  right: 40px;
+  top: 20px;
+  height: 80px;
+  width: 80px;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+  .choiseComponent__container {
+    background-position: top;
+    justify-content: flex-end;
+  }
+  .choiseComponent__cat {
+    display: flex;
+  }
+  .choiseComponent__cat {
+    align-self: flex-end;
+  }
+}

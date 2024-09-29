@@ -1,0 +1,50 @@
+.form__row {
+  width: clamp(20.5rem, 19.214rem + 6.43vw, 25rem);
+  height: clamp(25rem, 24.214rem + 3.93vw, 27.75rem);
+  padding-block: clamp(1.25rem, 0.893rem + 1.79vw, 2.5rem);
+  padding-inline: clamp(1.25rem, 0.893rem + 1.79vw, 2.5rem);
+  border: solid 1px #bfbfbf;
+  background-color: #fff;
+  border-radius: 16px;
+}
+.form__col {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form__logo {
+  width: clamp(18rem, 17.429rem + 2.86vw, 20rem);
+  height: clamp(2rem, 1.929rem + 0.36vw, 2.25rem);
+}
+.form__col_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.form__col_links a {
+  text-decoration: none;
+  color: #231f20;
+}
+.form__button {
+  background-color: #a5d38d;
+  color: #fff;
+  border-style: none;
+  width: clamp(18rem, 17.333rem + 2.96vw, 20rem);
+  border-radius: 12px;
+  height: 48px;
+}
+.form__input_log,
+.form__input_pass {
+  width: clamp(18rem, 17.333rem + 2.96vw, 20rem);
+  height: 48px;
+  border-style: none;
+  border: solid 1px #bfbfbf;
+  border-radius: 12px;
+  padding-inline: 20px;
+}
+.form__input_log::placeholder,
+.form__input_pass::placeholder {
+  color: #bfbfbf;
+}

@@ -1,0 +1,31 @@
+.finish__row {
+  height: clamp(25rem, 24.833rem + 0.74vw, 25.5rem);
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  border: solid 1px #000000;
+}
+.finish__col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.finish__text {
+  margin-bottom: 0;
+  color: #231f20;
+  font-size: 24px;
+  text-align: center;
+}
+.finish__button {
+  background-color: #629f42;
+  border-style: none;
+  height: 48px;
+  width: 320px;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+}
+.finish__button:hover {
+  background-color: #5a863a;
+}

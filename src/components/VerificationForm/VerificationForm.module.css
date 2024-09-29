@@ -1,0 +1,30 @@
+.verification__container {
+  background-image: url("../../assets/Group\ 347.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-grow: 1;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.verification__cat {
+  display: none;
+}
+.verification__cat_wrapper {
+  padding-top: 65px;
+}
+@media screen and (max-width: 992px) {
+  .verification__container {
+    background-position: top;
+    justify-content: flex-end;
+  }
+  .verification__cat {
+    display: flex;
+  }
+  .verification__cat {
+    align-self: flex-end;
+  }
+}

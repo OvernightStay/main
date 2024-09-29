@@ -1,0 +1,99 @@
+.form__row {
+  width: clamp(20.5rem, 11.5rem + 40vw, 47.5rem);
+  min-height: 652px;
+  padding-block: clamp(1.25rem, 0.893rem + 1.79vw, 2.5rem);
+  padding-inline: clamp(1.25rem, 0.893rem + 1.79vw, 2.5rem);
+  border: solid 1px #bfbfbf;
+  background-color: #fff;
+  border-radius: 16px;
+}
+.form__col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.form__logo {
+  width: clamp(18rem, 17.429rem + 2.86vw, 20rem);
+  height: clamp(2rem, 1.929rem + 0.36vw, 2.25rem);
+}
+.form__col_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.form__col_links a {
+  text-decoration: none;
+  color: #231f20;
+}
+.form__button {
+  background-color: #a5d38d;
+  color: #fff;
+  border-style: none;
+  width: clamp(18rem, 17.333rem + 2.96vw, 20rem);
+  border-radius: 12px;
+  height: 48px;
+}
+.form__button:hover {
+  background-color: #61b036;
+  color: #fff;
+  border-style: none;
+  width: clamp(18rem, 17.333rem + 2.96vw, 20rem);
+  border-radius: 12px;
+  height: 48px;
+}
+.form__input,
+.form__input {
+  width: clamp(18rem, 17.333rem + 2.96vw, 20rem);
+  height: 48px;
+  border-style: none;
+  border: solid 1px #bfbfbf;
+  border-radius: 12px;
+  padding-inline: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.input {
+  outline: none;
+  border-style: none;
+  cursor: pointer;
+}
+.form__input_text {
+  margin-bottom: 0;
+  color: #bfbfbf;
+}
+.form__input::placeholder,
+.form__input::placeholder {
+  color: #bfbfbf;
+}
+.form__menu {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+.form__col_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+}
+.form__checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.form__checkbox_input {
+  height: 24px;
+  width: 24px;
+  border: solid 1px #bfbfbf;
+}
+.form__checkbox_text {
+  color: #629f42;
+}

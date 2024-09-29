@@ -1,0 +1,230 @@
+.loadingScreen__fluid {
+  min-height: 100vh;
+  background-color: #231f20; /* Черный фон */
+  transition: background-color 0.5s ease; /* Плавный переход фона */
+}
+.loadingScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  min-height: 100vh;
+}
+
+.logo__col {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game__for_staff {
+  width: clamp(16.313rem, 9.188rem + 35.63vw, 41.25rem);
+  opacity: 0; /* Начальная прозрачность */
+}
+
+.home__row {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  min-width: 975px;
+}
+
+.home__col_left {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  min-height: clamp(4.375rem, -0.875rem + 26.25vw, 22.75rem);
+  min-width: 321px;
+}
+
+.home__col_center {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  min-height: clamp(4.375rem, -0.875rem + 26.25vw, 22.75rem);
+  min-width: 285px;
+}
+
+.home__col_right {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: clamp(10.063rem, 6.277rem + 18.93vw, 23.313rem);
+  min-width: 367px;
+}
+
+.home__footer {
+  width: clamp(10.688rem, 8.652rem + 10.18vw, 17.813rem);
+  opacity: 0; /* Начальная прозрачность */
+}
+
+.home__bush {
+  width: clamp(8.063rem, 4.634rem + 17.14vw, 20.063rem);
+  opacity: 0; /* Начальная прозрачность */
+}
+
+.bush__right {
+  opacity: 0; /* Начальная прозрачность */
+}
+
+.home__roof {
+  margin-bottom: -67px;
+  width: clamp(10.688rem, 8.652rem + 10.18vw, 17.813rem);
+  opacity: 0; /* Начальная прозрачность */
+}
+
+.home__tree {
+  position: absolute;
+  width: clamp(4.688rem, 2.795rem + 9.46vw, 11.313rem);
+  height: clamp(6.313rem, 3.598rem + 13.57vw, 15.813rem);
+  opacity: 0; /* Начальная прозрачность */
+}
+
+.home__dore {
+  height: clamp(4.125rem, 3.321rem + 4.02vw, 6.938rem);
+  width: clamp(2.75rem, 2.232rem + 2.59vw, 4.563rem);
+  position: absolute;
+  bottom: 0;
+  opacity: 0; /* Начальная прозрачность */
+}
+
+.home__window_left {
+  width: clamp(1.5rem, 1.205rem + 1.47vw, 2.531rem);
+  height: clamp(2.188rem, 1.741rem + 2.23vw, 3.75rem);
+  position: absolute;
+  left: 24%;
+  bottom: 12%;
+  opacity: 0; /* Начальная прозрачность */
+}
+
+.home__window_right {
+  width: clamp(1.5rem, 1.205rem + 1.47vw, 2.531rem);
+  height: clamp(2.188rem, 1.741rem + 2.23vw, 3.75rem);
+  position: absolute;
+  right: 24%;
+  bottom: 12%;
+  opacity: 0; /* Начальная прозрачность */
+}
+
+.window__with_light_right {
+  position: absolute;
+  right: 24%;
+  bottom: 12%;
+  width: clamp(1.5rem, 1.205rem + 1.47vw, 2.531rem);
+  height: clamp(2.188rem, 1.741rem + 2.23vw, 3.75rem);
+  opacity: 0; /* Начальная прозрачность */
+}
+
+.window__with_light_left {
+  position: absolute;
+  left: 24%;
+  bottom: 12%;
+  width: clamp(1.5rem, 1.205rem + 1.47vw, 2.531rem);
+  height: clamp(2.188rem, 1.741rem + 2.23vw, 3.75rem);
+  opacity: 0; /* Начальная прозрачность */
+}
+
+.window_roof_left {
+  position: absolute;
+  left: 24%;
+  top: 52.5%;
+  opacity: 0; /* Начальная прозрачность */
+}
+
+.window_roof_middle {
+  position: absolute;
+  left: 43.5%;
+  top: 55.5%;
+  opacity: 0; /* Начальная прозрачность */
+}
+
+.window_roof_right {
+  position: absolute;
+  left: 62.5%;
+  top: 52.3%;
+  opacity: 0; /* Начальная прозрачность */
+}
+
+.window__foor_with_light_middle {
+  position: absolute;
+  left: 43.5%;
+  top: 55.5%;
+  opacity: 0; /* Начальная прозрачность */
+}
+
+.window__foor_with_light_left {
+  position: absolute;
+  left: 24%;
+  top: 52.5%;
+  opacity: 0; /* Начальная прозрачность */
+}
+
+.window__foor_with_light_right {
+  position: absolute;
+  left: 62.5%;
+  top: 52.3%;
+  opacity: 0;
+}
+
+.big_bush_right {
+  position: absolute;
+  width: clamp(2.625rem, 1.25rem + 6.88vw, 7.438rem);
+  height: clamp(2.438rem, 1.098rem + 6.7vw, 7.125rem);
+  margin-left: 47px;
+  opacity: 0; /* Начальная прозрачность */
+}
+
+.home__smoke {
+  width: clamp(1.125rem, 0.875rem + 1.25vw, 2rem);
+  height: clamp(1.813rem, 1.955rem + 2.59vw, 4.813rem);
+  position: absolute;
+  top: clamp(-2%, -1%, 0%);
+  right: clamp(24%, 23%, 35%);
+  opacity: 0; /* Начальная прозрачность */
+}
+
+.line__row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.line {
+  height: 2px;
+  position: relative;
+  overflow: hidden;
+  width: 100%; /* Убедитесь, что контейнер для прогресс-бара имеет ширину */
+}
+
+.progress__container {
+  height: 2px;
+  width: 80%;
+}
+
+.progressBar {
+  height: 100%;
+  background-color: #ffe74f;
+  transition: width 0.1s ease;
+}
+
+.hidden {
+  display: none;
+}
+
+.fadeIn {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

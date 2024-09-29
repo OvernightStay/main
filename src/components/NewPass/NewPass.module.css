@@ -1,0 +1,68 @@
+.new__row {
+  min-height: 456px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  border: solid 1px #000000;
+  width: clamp(20.5rem, 19rem + 6.67vw, 25rem);
+}
+.new__col {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.new__text {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+.new__input_text {
+  font-size: 14px;
+  width: 80%;
+}
+.new__input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.new__input_field {
+  height: 48px;
+  border-style: none;
+  padding-bottom: 5px;
+  outline: none;
+}
+.new__input_field_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden;
+  justify-content: space-between;
+  width: 320px;
+  height: 48px;
+  border-radius: 12px;
+  padding-inline: 20px;
+  border: solid 1px #bfbfbf;
+}
+.new__input_field::placeholder {
+  color: #bfbfbf;
+}
+.new__button {
+  width: 320px;
+  height: 48px;
+  border-style: none;
+  border-radius: 12px;
+  background-color: #a5d38d;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.new__button:hover {
+  background-color: #5c8d43;
+  transition: all 0.3s ease;
+}
+.new__show {
+  cursor: pointer;
+}

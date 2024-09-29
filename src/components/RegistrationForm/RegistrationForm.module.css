@@ -1,0 +1,30 @@
+.registration__container {
+  background-image: url("../../assets/reg_bgr.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-grow: 1;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.registration__cat {
+  display: none;
+}
+.registration__cat_wrapper {
+  padding-top: 65px;
+}
+@media screen and (max-width: 992px) {
+  .registration__container {
+    background-position: top;
+    justify-content: flex-end;
+  }
+  .registration__cat {
+    display: flex;
+  }
+  .registration__cat {
+    align-self: flex-end;
+  }
+}

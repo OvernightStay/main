@@ -1,0 +1,50 @@
+.splashScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  min-height: 100vh;
+  background-color: #231f20; /* Черный фон */
+  transition: background-color 0.5s ease; /* Плавный переход фона */
+}
+
+.logo {
+  transition: all 0.5s ease;
+  width: clamp(16.313rem, 9.188rem + 35.63vw, 41.25rem);
+  opacity: 0; /* Начальная прозрачность */
+  animation: fadeInOut 2s ease forwards;
+  animation-delay: 2s; /* Задержка перед появлением */
+}
+
+.yellow__elem {
+  width: clamp(16.313rem, 9.188rem + 35.63vw, 41.25rem);
+  opacity: 0; /* Начальная прозрачность */
+  animation: fadeInOut 4s ease forwards, moveToGamePosition 3s ease forwards;
+  animation-delay: 5s, 4s; /* Задержка перед появлением и перемещением */
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes moveToGamePosition {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-285px); /* Пример перемещения вниз */
+  }
+}
