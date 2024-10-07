@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Open-Sans-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/Open-Sans/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open-Sans-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/Open-Sans/OpenSans-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open-Sans-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/Open-Sans/OpenSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open-Sans-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/Open-Sans/OpenSans-Medium.ttf") format("truetype");
+}
+* {
+  font-family: "Open-Sans-Regular", sans-serif;
+  font-size: 16px;
+}
