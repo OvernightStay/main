@@ -3,7 +3,7 @@ import s from "./styles.module.css";
 import ProgressBar from "../progress/ProgressBar";
 import { useEffect, useState } from "react";
 
-export default function TestComponent({ name, pos, setTime }) {
+export default function CharactersInline({ name, pos, setTime }) {
   const [timer, setTimer] = useState(15);
 
   useEffect(() => {
@@ -16,12 +16,12 @@ export default function TestComponent({ name, pos, setTime }) {
 
   return (
     <div
-      className={`${s.test}  ${pos === 0 && s.animate} ${
-        pos === 1 ? s.right : ""
-      }`}
+      className={`${s.charactersInline}  ${pos === 0 && s.animate} ${
+        pos === 1 && s.right
+      } ${pos === 2 && s.left}`}
     >
       <ProgressBar />
-      <img src={`/assets/characters/${name}.svg`} alt="mathew icon" />
+      <img src={`/assets/characters/${name}.svg`} alt={`${name} icon`} />
     </div>
   );
 }

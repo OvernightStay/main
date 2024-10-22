@@ -63,6 +63,10 @@
   background-image: url("/assets/background/background-night-bus-game.svg");
   background-position: center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
 }
 
 .finalResult {
